@@ -86,12 +86,19 @@ git clone git@gitlab.com:andreimerlescu/go-animate-coin.git
 
 If you use this project for your XRP, SOL, ETH, or other cryptocurrency, please send a tip: 
 
-XRP: rK1cJc5Jrhauhae4R84RwPVoRTWcDC3iwS
-XLM: GBYMH7R35BZGFSXYSCUYR55RUH6Q3HAUV5QHV6FLZUPFYUVTAESJPEWK
-HBAR: 
-BTC: 1EKZJRaFrybikUbvJaT8yHP9qzLfoWdiMc
+Confidently tip any amount with almost no fees (_even if you're just giving just your $0.02_):
 
+- **XRP** _(preferred)_: rK1cJc5Jrhauhae4R84RwPVoRTWcDC3iwS
+- **XLM** _(receiving)_: GBYMH7R35BZGFSXYSCUYR55RUH6Q3HAUV5QHV6FLZUPFYUVTAESJPEWK
+- **HBAR** _(collecting)_: 0.0.7718744
+- **SOL** _(liquidating)_: 3fFWxmTYHZR1ALKoh3aj3Fyoh8c6AnwKqff4M5USFQMH
 
+Due to swap fees, please tip any amount over $10 if you're using :
+
+- **BTC** _(don't hold any)_: 1EKZJRaFrybikUbvJaT8yHP9qzLfoWdiMc
+- **ETH** _(fees way too high)_: 0x780A20EfD2884Fb2081D7501a6575Da82d0F027c
+
+Thank you for your support.
 
 ## License
 
