@@ -1,6 +1,14 @@
 # Go Animate Coin
 
-This script will take a circular image, say a coin, and rotate it in the perspective towards you as if the coin is being spun around clockwise facing you.
+This script will take a circular image, say a coin, and rotate it in the perspective 
+towards you as if the coin is being spun around clockwise facing you.
+
+I wanted to create a GIF animation of a new XPMarket.com meme coin called $APARIO and 
+I couldn't find anything online so I built one. 
+
+I used Claude AI to help me debug the transformFrame func, but overall, it was a fun 
+exercise that took me a few hours to do and I am happy to share it with you under the 
+MIT License so you may use it as well.
 
 ## Sample
 
@@ -11,6 +19,18 @@ This script will take a circular image, say a coin, and rotate it in the perspec
 |            **Transparent PNG Image**             |               _Animated GIF Image_                | 
 
 [View $APARIO on XRP Ledger via XPMarket.com](https://xpmarket.com/token/APARIO-rU16Gt85z6ZM84vTgb7D82QueJ26HvhTz2)
+
+## Install
+
+```bash
+go install github.com/andreimerlescu/go-animate-coin@latest
+```
+
+Or use **GitLab** if GitHub is unavailable (_it's now owned by Microsoft, so it happens often now_): 
+
+```bash
+go install gitlab.com/andreimerlescu/go-animate-coin@latest
+```
 
 ## Usage
 
@@ -44,6 +64,34 @@ When you pass the `-y` flag in this case, you won't get this prompt.
 [~/go-animate-coin]$ ./go-animate-coin -input sample/apario-xrp-coin@144px.png -output sample/apario-xrp-coin@144px.gif -y
 Animation saved to sample/apario-xrp-coin@144px.gif
 ```
+
+## Contribute
+
+```bash
+git clone git@github.com:andreimerlescu/go-animate-coin.git
+git checkout develop
+git pull origin develop
+git checkout -b feature/my-new-feature
+```
+
+Submit the change as a pull request to the repository. The GitHub way to do it is to fork the repo,
+edit the files you need, then submit the commit and the interface will create the PR in this repo
+and integrate the changes from your forked repo into this repo automatically.
+
+You can also use **GitLab** if you wish, 
+
+```bash
+git clone git@gitlab.com:andreimerlescu/go-animate-coin.git
+```
+
+If you use this project for your XRP, SOL, ETH, or other cryptocurrency, please send a tip: 
+
+XRP: rK1cJc5Jrhauhae4R84RwPVoRTWcDC3iwS
+XLM: GBYMH7R35BZGFSXYSCUYR55RUH6Q3HAUV5QHV6FLZUPFYUVTAESJPEWK
+HBAR: 
+BTC: 1EKZJRaFrybikUbvJaT8yHP9qzLfoWdiMc
+
+
 
 ## License
 
